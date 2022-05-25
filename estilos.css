@@ -1,0 +1,45 @@
+:root{
+    --colorTexto:#333;
+    --colorCTA:rgb(38, 170, 247);
+    --colorSection:#eee;
+    --blanco:#FFF;
+    --space:12px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    font-family: system-ui;
+    color: var(--colorTexto)
+}
+
+body{
+    display: grid;
+    place-items: center;
+    gap: var(--space)
+}
+
+section{
+    padding: var(--space);
+    background-color: var(--colorSection);
+    border-radius: var(--space);
+    width: 100%;
+    max-width: 400px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space);
+}
+
+button{
+    padding: var(--space);
+    border-radius: 6px;
+    border: 0;
+    background-color: var(--colorCTA);
+    color:var(--blanco);
+}
