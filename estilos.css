@@ -1,7 +1,8 @@
 :root{
     --colorTexto:#333;
     --colorCTA:rgb(38, 170, 247);
-    --colorSection:#eee;
+    --colorSection:#FFF;
+    --colorBG:#eee;
     --blanco:#FFF;
     --space:12px;
 }
@@ -19,7 +20,9 @@ html{
 body{
     display: grid;
     place-items: center;
-    gap: var(--space)
+    gap: var(--space);
+    background-color: var(--colorBG);
+    
 }
 
 section{
